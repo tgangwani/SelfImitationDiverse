@@ -15,8 +15,8 @@ python main.py --env_id HalfCheetah-v1 --seed=$(echo $RANDOM) --mu=0.8 --episodi
 
 The parameter 'mu' is as defined in the paper (Equation 5.)
 
-## Coming soon..
-Code using SVPG for diverse multi-agent training
+## SVPG for diverse multi-agent training
+This functionality is provided as part of a separate codebase. Please use the code [here](https://github.com/tgangwani/QDAgents) with the following configuration in the file __default_config.yaml__: divergence: js, dre_type: nce 
 
-## Acknowledgements
+## Credits
 The code is built on, and uses many utils from [OpenAI baselines](https://github.com/openai/baselines)
